@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Tilt+Neon&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.blub {
+  translate: -50% -50%;
+  animation: rotate 10s infinite;
+  filter: blur(200px);
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
