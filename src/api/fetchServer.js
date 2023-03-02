@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:5000/";
+const url = "https://firmanbackendapp20230423.netlify.app/.netlify/functions/api";
 
 export const fetchPost = async () => await axios.get(url);
 
